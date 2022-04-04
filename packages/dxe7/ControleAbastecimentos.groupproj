@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{EBF36407-0F12-4DE1-8DBA-4891BDE299A6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ControleAbastecimentosApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\unittests\ControleAbastecimentosAppTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ControleAbastecimentosApp">
+        <MSBuild Projects="ControleAbastecimentosApp.dproj"/>
+    </Target>
+    <Target Name="ControleAbastecimentosApp:Clean">
+        <MSBuild Projects="ControleAbastecimentosApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ControleAbastecimentosApp:Make">
+        <MSBuild Projects="ControleAbastecimentosApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ControleAbastecimentosAppTests">
+        <MSBuild Projects="..\..\unittests\ControleAbastecimentosAppTests.dproj"/>
+    </Target>
+    <Target Name="ControleAbastecimentosAppTests:Clean">
+        <MSBuild Projects="..\..\unittests\ControleAbastecimentosAppTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ControleAbastecimentosAppTests:Make">
+        <MSBuild Projects="..\..\unittests\ControleAbastecimentosAppTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ControleAbastecimentosApp;ControleAbastecimentosAppTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ControleAbastecimentosApp:Clean;ControleAbastecimentosAppTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ControleAbastecimentosApp:Make;ControleAbastecimentosAppTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

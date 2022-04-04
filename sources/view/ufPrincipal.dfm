@@ -1,0 +1,292 @@
+inherited fPrincipal: TfPrincipal
+  Left = 146
+  Top = 329
+  Caption = 'fPrincipal'
+  ClientHeight = 456
+  ClientWidth = 495
+  Position = poDesigned
+  ExplicitWidth = 511
+  ExplicitHeight = 495
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlMain: TPanel [0]
+    Left = 0
+    Top = 0
+    Width = 495
+    Height = 437
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'pnlTop'
+    ShowCaption = False
+    TabOrder = 0
+    object pnlBotoes: TPanel
+      Left = 0
+      Top = 0
+      Width = 102
+      Height = 437
+      Align = alLeft
+      BevelInner = bvLowered
+      Caption = 'pnlBotoes'
+      Color = clSilver
+      ParentBackground = False
+      ShowCaption = False
+      TabOrder = 0
+      object imgLogo: TImage
+        Left = 24
+        Top = 9
+        Width = 49
+        Height = 50
+        AutoSize = True
+        Picture.Data = {
+          0954506E67496D61676589504E470D0A1A0A0000000D49484452000000310000
+          00320806000000F50833B2000000017352474200AECE1CE90000000467414D41
+          0000B18F0BFC6105000000097048597300000EC300000EC301C76FA864000008
+          A34944415478DADD5A0B7054E515FEEEDDDDBB9BDD3C3709D8180115F1850333
+          7DD0B45507AB169D562D9DAA1D8A8C682914DACE54A982F210041A0236E91471
+          A484010409455BA6555BA7855274AC5AAC5890E900A116020D24D96CB2D9E77D
+          F43FFFE6BFBD775F09B0D9D09E99CCDDBDBBF7DEF39DE777CE468A4422060A28
+          067448902FFA3B56910A098294D399728E0C8A5ADFD36B53C14180292808ABE8
+          91283F6AF1383F3A1405095982E27671C535764E1EA447860C84B0ACD5C28960
+          0FA2C74F403B7D1AEA9933D07A7B60449320248F024971C379D948382FAF857B
+          542D94912320399D1707C2544455A1F685B9B50CC50587C3C12DE5C8711DB776
+          7FE8848F1D45E4EDF7107D6B3FB40F0F41E9ED632E50E1D075DB759A9C04ABBB
+          D9736A6B811BAF4751DDE7E09978138AC65C9915504E109AA6217CF01062070E
+          207EEC38E4B23228E3C6A278F2AD7054566605218442A6E78F7BD1F7D2764887
+          3E861C6356772415915D991592758D1FD578821FC30C9032EE6A78BE3115DE49
+          9FCE08262B08B266CF9E7DE879B61EAED3EDDC72C24AF2D4FBE0FFE1F7A03020
+          D924DED989EE977722B1E31538DADBE1641EE4D7CBE9D0F504F34A226EF38610
+          F256A2BB17B2BF0CEA4DD773307EF67CA94831C3342B88D0E123E85EB404EE83
+          8759BCBACDF36421BAB1F4E463A87CF8A18C2E26001DAB9F83BCFBF534AB93C2
+          E23DBDD69D2C8947544366A1E3BA761CCF09D95394FC3C1A811EE8E6B9A3B6FD
+          1BC689564867BB50D2B012A52CCC727A82C228F8ABDD882E5D01C548C7684463
+          88DF7633AA962E86FBF29AB4100AEC7C05B1060642D5B3038846A15D7D159C77
+          4E6671FF057858C838BD3EC8451E5B89D5350312339C1AEE831AE8827A2EC0BF
+          6B8D828C2048918E8D9BA0373D6F86412A88D8841BE15FBD02DEB1D7A4856068
+          7523DC274FA6850E81485A49456CD267513177368A6EB88EE55A29CFAF4CC5C2
+          5A246C6166799D110455A3CE965D88AF6A303DA1328B381D9209225C370997D5
+          3F6B7A821450DB4EA363E93238FEF4364FE0D4E42510F1121F3C33A6A162FA34
+          B898F269CFEE573AB53CE7EAE25973A2F78383E859B818CAD163B69C1020F4B9
+          DF81FF91993645BA76BDCA4330358C5443E7E7C803D29C47503163FAA0AADB60
+          257B7562DEE8DAD682C4AA3566E520A14A91B8EB76542F5D600B256A64679F5E
+          02E5F5376178BD69F7A31CA010FA5453435E01E40421E233B8672F227F791F1A
+          AB0C282D87FBBA7128B97B0AEBAAC93012CA90E702DF9D0B6F389C960B54FBA3
+          D78E45F9F26750CCAA10BF3F2B1ED4346D863B4FE2372008AB47A85B1B6AB2F9
+          880A6203CC140AECF825540A258F27ED1E21164EBE99D351FEC0FD3C3425A70B
+          4E9F979557A769084D00BE00200382C8452FC4E73A0BA5CEB54D006B6EA92044
+          2F30C6DF005457254F328EE4A8F4432E2D8132660C1C3535708FAE85A3BC3CCD
+          3B7901617AC46221B2BCD6DD8DD827A7103B7204B10F3E04DEFD2B5CC160C66B
+          7969A58ECF2A16014A15E2B36EC695A409E3E1BDF94BF0B246763E7933281062
+          0E905968C5DBCF22F2B78308EF7F0B06E355D2A9539C13650A2312AA4CC657EE
+          80EBCAD1902B2AE064FCCB06907565A32F82445B1B34C66CD54090F78F92BACF
+          2415CC07151700344625427BF721B28F315196E84A77D0D608B371A244CD488C
+          D8DACCE90409858B951D136D21CFCAAC1F51EEE9A1105C7EBFAD730F04645089
+          1DFAE8307AB6BD0CC76BBFE7E5567329FC336A7E7149E2DCC7E80DC1C3FA87DD
+          CAC9B25ABB790369CF93967BF402ABD00583E8FEED1B08356F82F3E3A3FCBD95
+          FBC4CB1935FFFA3D708E1E85D85606F29FFFB27325F61D7DEA3DA8A95F611B4D
+          F32DD9FB04737168DF9F117C62110F1D11F382FF6813C7A378D64C16BB7508B7
+          9EE08CD7F38F63B6B0E2846FDE2C8C983727790D5058103DEFBC87DE6756C071
+          BCD596B49C7D4EB91D65B367F1C6458A45FA693B792B9566BBE7FF08958C2B0D
+          15803410E241340F7431068B9DAF72A50485A62379A06CD142B3F392C404F1DB
+          FF6E1A675216CC47D5B4078748FD2C2048428C6AD04457C4CA2925AE53923975
+          885D71054A963C650E240234F1A6732BD904B8EBD736DE342C2044E9EBD8D08C
+          78D33A1B1BA530C2C3D351C96A38F17F5161F86A85A8FBA62D307EB2D6AC5C74
+          DDB082687FAE11C68B9B4D6544327BD6AC44F957EFCA7823AA62D1C717F2B22B
+          929B40889C281808219D9BB725C74B4B2726858A37ACB7CDB656A1B54CE7ACEF
+          C375B2CD56C944753A9F65585E40A456A6C1788246DA333F5E609B2778087EEB
+          7E542F5B647EAF6025369181950A85ACAB1A1B29647F816D3BA02EAFE7EF7918
+          F697E39A9F3670DA5D504F90507804EAD742D9B3DF4C56ADAA12EE398FA2E2C1
+          6F66A4CCA1947E412068573472D32FCC65C050484EDA414A051B9B20BDF37E72
+          46262F314257FAF41328BEF5161388F00885D4B9F52F406BDEFADFB25CE14755
+          CB163E090E0B080124B4FB37D0B7B7C0C594A40D1DED8B7CF366A3F4CB9339DB
+          14FD8594A47C0A3EB598F718DA90D01CE1DDB2113E9A11860B84109AA17B5B76
+          9A330401A2059AEFDE7B93434CFF5426BC61ACDFC8872062BDB9B685430A2275
+          68276BD34CC1A7B9030710FBE8EFC0D1D6A4076EF9222A667CDBDC41F175CF0F
+          1E83A3A3938388DFF735542F9C9F73775B1010B6CF58874EB0519400D16F0D34
+          9DF9EA3ECF41F04186E54FFBB2559C7B513851725B371D05033158B1E6835562
+          966D206DD2A973FBA73D3024217551203800367788A9CD167EEC7CEF1B6FA28F
+          F12985CDCEF1BBEF44D593F3D316D0C30E4200C9B4042640BC69AE7B01FADA9F
+          43BD6A14CAEA97A3ECB6C9971E888100C6A869CE7B9CEF7469095DB3AE31E322
+          F99205218416CD91C6E7116DFD04952FFE2C2BFFBAA44150EFE87A693B9F5112
+          1327F065B47BEC3543BF15CF9758A7BFAE8DCD08AD5907DFA30F0DF89BDF2507
+          42B62CE0E8B7BCE86BBF43691E27BE82794208F58FD01FF6F28572D9943BF2D2
+          370AFE6F116226E70FCF53E31B1610D97E64FC9F016105922F19B6FFB2C9A7FC
+          5F80F80F0394FAF7BD1CF1D10000000049454E44AE426082}
+        Transparent = True
+      end
+      object btnCadCombustiveis: TButton
+        Left = 9
+        Top = 116
+        Width = 80
+        Height = 50
+        Action = actCadCombustiveis
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 1
+        WordWrap = True
+      end
+      object btnCaixa: TButton
+        Left = 9
+        Top = 63
+        Width = 80
+        Height = 50
+        Action = actCaixa
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+        WordWrap = True
+      end
+      object btnSair: TButton
+        Left = 9
+        Top = 381
+        Width = 80
+        Height = 50
+        Action = actSair
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 5
+        WordWrap = True
+      end
+      object btnCadTanques: TButton
+        Left = 9
+        Top = 169
+        Width = 80
+        Height = 50
+        Action = actCadTanques
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 2
+        WordWrap = True
+      end
+      object btnCadPrecos: TButton
+        Left = 9
+        Top = 275
+        Width = 80
+        Height = 50
+        Action = actCadPrecos
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 4
+        WordWrap = True
+      end
+      object btnCadBombas: TButton
+        Left = 9
+        Top = 222
+        Width = 80
+        Height = 50
+        Action = actCadBombas
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 3
+        WordWrap = True
+      end
+      object btnVendas: TButton
+        Left = 9
+        Top = 328
+        Width = 80
+        Height = 50
+        Action = actVendas
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 6
+        WordWrap = True
+      end
+    end
+    object pnlWorkArea: TPanel
+      Left = 102
+      Top = 0
+      Width = 393
+      Height = 437
+      Align = alClient
+      BevelOuter = bvNone
+      Caption = 'pnlWorkArea'
+      Color = clGray
+      ParentBackground = False
+      ShowCaption = False
+      TabOrder = 1
+    end
+  end
+  inherited stbMain: TStatusBar
+    Top = 437
+    Width = 495
+    Panels = <
+      item
+        Text = 'Usu'#225'rio:'
+        Width = 50
+      end
+      item
+        Text = 'MVP'
+        Width = 100
+      end
+      item
+        Text = 'Perfil:'
+        Width = 50
+      end
+      item
+        Text = 'MVP'
+        Width = 100
+      end
+      item
+        Text = 'segunda-feira, 99/99/9999 99:99:99'
+        Width = 50
+      end>
+    ExplicitLeft = 0
+    ExplicitTop = 437
+    ExplicitWidth = 495
+  end
+  inherited actlstPrincipal: TActionList
+    object actCadCombustiveis: TAction
+      Caption = 'Combust'#237'veis'
+      OnExecute = actCadCombustiveisExecute
+    end
+    object actSair: TAction
+      Caption = 'Sair [->'
+      OnExecute = actSairExecute
+    end
+    object actCaixa: TAction
+      Caption = 'Caixa'
+    end
+    object actCadTanques: TAction
+      Caption = 'Tanques'
+      OnExecute = actCadTanquesExecute
+    end
+    object actCadBombas: TAction
+      Caption = 'Bombas'
+      OnExecute = actCadBombasExecute
+    end
+    object actCadPrecos: TAction
+      Caption = 'Pre'#231'os'
+      OnExecute = actCadPrecosExecute
+    end
+    object actVendas: TAction
+      Caption = 'Relat'#243'rio Vendas'
+    end
+  end
+end
